@@ -1,0 +1,85 @@
+body {
+    background: #fff;
+    color:#555;
+    font-size:12px;
+    font-weight:normal;
+    font-family: verdana,arial,serif;
+}
+
+#main{
+    /*background: url('/img/background.jpg') no-repeat center 0;*/
+    margin: 0 auto;
+    position: relative;
+    width: 1280px;
+    min-height: 600px;
+}
+#logo {
+    height:100px;
+    width:300px;
+}
+
+#indicator {
+    height:50px;
+    width:50px;
+    display:none;
+    background-image:url('../img/indicator.gif');
+}
+
+.ui-jqgrid .ui-jqgrid-bdiv{
+    height:500px !important;
+}
+
+div {
+    border: 0 solid black;
+}
+
+th, td, caption {
+    padding:0 0 0 0;
+}
+
+table {
+    margin:0;
+    width:100%;
+}
+
+.list {
+   width:100%;
+}
+
+tbody tr:nth-child(2n) td, tbody tr.even td {
+    background:none repeat scroll 0 0 transparent;
+}
+
+input#phrase {
+    width: 30em;
+    background-color: #e0f0f0;
+}
+
+input#topic {
+    width: 14em;
+    background-color: #e0f0f0;
+}
+
+div.hidden {
+    display: none;
+}
+
+span.from {
+    font-weight: bold;
+}
+
+span.alert {
+    font-style: italic;
+}
+
+
+.central {
+    margin:auto;
+    width:960px;
+    background-color:#dddddd;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    padding: 0 5px 0 5px;
+
+}
+
