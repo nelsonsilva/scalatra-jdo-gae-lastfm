@@ -1,0 +1,6 @@
+target
+lib_managed
+*.iml
+*.ipr
+*.iws
+pom.xml
